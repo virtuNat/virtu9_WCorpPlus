@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11B408EC-1DAC-4F80-9BA9-FABF561FF70E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>virtu9WCorpPlus</RootNamespace>
+    <AssemblyName>virtu9WCorpPlus</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\Steam\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\dnSpy-net-win64\bin\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="TwistRand">
+      <HintPath>D:\Steam\steamapps\workshop\content\1256670\3036997102\Assemblies\TwistRand.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Steam\steamapps\common\Library Of Ruina\LibraryOfRuina_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="virtu9CommonLORUtil">
+      <HintPath>D:\Steam\steamapps\workshop\content\1256670\3036997102\Assemblies\1FrameworkAssemblies\virtu9CommonLORUtil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AggroSetter\EnemyUnitAggroSetter_virtu9_WCorpPlus.cs" />
+    <Compile Include="BehaviorActions\BehaviourAction_virtu9_WCorpPlus_Ripping.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_ChargeSpender.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_EnergyCycle.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_Leap.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_Overcharge.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_Rewind.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_Ripple.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_RipSpace.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_Shred.cs" />
+    <Compile Include="CardAbilities\DiceCardSelfAbility_virtu9_WCorpPlus_UpLeap.cs" />
+    <Compile Include="DiceAbilities\DiceCardAbility_virtu9_WCorpPlus_Overcharge_2.cs" />
+    <Compile Include="DiceAbilities\DiceCardAbility_virtu9_WCorpPlus_Overcharge_3.cs" />
+    <Compile Include="DiceAbilities\DiceCardAbility_virtu9_WCorpPlus_Ripple_2.cs" />
+    <Compile Include="DiceAbilities\DiceCardAbility_virtu9_WCorpPlus_RipSpace_1.cs" />
+    <Compile Include="DiceAbilities\DiceCardAbility_virtu9_WCorpPlus_RipSpace_2.cs" />
+    <Compile Include="DiceAbilities\DiceCardAbility_virtu9_WCorpPlus_Shred_1.cs" />
+    <Compile Include="ModMetaInfo.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_Battery.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_ChargeBuff.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_ChargeHeal.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_ChargeQuick.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_ChargeVuln.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_CleanupOrder.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_CleanupOrderEnemy.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_DimSectionBDmg.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_DimSectionDmg.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_DimSectionProt.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_OverchargeDamage.cs" />
+    <Compile Include="PassiveAbilities\PassiveAbility_virtu9_WCorpPlus_OverchargePower.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_DimRift.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_EnergyCycle.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_Leap.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_Rewind.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_Ripple.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_RipSpace.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_Shred.cs" />
+    <Compile Include="PriorityScripts\DiceCardPriority_virtu9_WCorpPlus_UpLeap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TargetSetters\EnemyUnitTargetSetter_virtu9_WCorpPlus_Agent.cs" />
+    <Compile Include="TargetSetters\EnemyUnitTargetSetter_virtu9_WCorpPlus_Rose.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

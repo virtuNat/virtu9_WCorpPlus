@@ -2,6 +2,3 @@
 bin/
 obj/
 Assemblies/
-
-*.csproj
-*.sln
