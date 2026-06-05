@@ -7,15 +7,15 @@ namespace virtu9WCorpPlus.AggroSetter
     {
         public override void OnRoundStart(List<BattleUnitModel> playerUnits)
         {
-            foreach (BattleUnitModel battleUnitModel in playerUnits)
+            foreach (BattleUnitModel unit in playerUnits)
             {
-                int aggro = (int)Math.Round(_HP_MULT * (1 - battleUnitModel.hp / battleUnitModel.MaxHp));
-                aggro += _DEBUFF_MULT * battleUnitModel.bufListDetail.GetNegativeBufTypeCount();
-                if (battleUnitModel.IsBreakLifeZero() || battleUnitModel.turnState == BattleUnitTurnState.BREAK)
+                int aggro = (int)Math.Round(_HP_MULT * (1 - unit.hp / unit.MaxHp));
+                aggro += _DEBUFF_MULT * unit.bufListDetail.GetNegativeBufTypeCount();
+                if (unit.IsBreakLifeZero() || unit.turnState == BattleUnitTurnState.BREAK)
                 {
                     aggro += _BREAK_SCORE;
                 }
-                battleUnitModel.aggroDetail.AddRoundScore(aggro);
+                unit.aggroDetail.AddRoundScore(aggro);
             }
         }
 
