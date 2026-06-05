@@ -3,28 +3,28 @@
   <cardDescList>
     <!-- W Corp Agents -->
     <BattleCardDesc ID="1">
-      <LocalizedName>Energy Cycle</LocalizedName>
+      <LocalizedName>Energy Cycle *</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="2">
-      <LocalizedName>Dimensional Rift</LocalizedName>
+      <LocalizedName>Dimensional Rift *</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="3">
-      <LocalizedName>Overcharge</LocalizedName>
+      <LocalizedName>Overcharge *</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="4">
-      <LocalizedName>Rewind</LocalizedName>
+      <LocalizedName>Rewind *</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="5">
-      <LocalizedName>Ripple</LocalizedName>
+      <LocalizedName>Ripple *</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="6">
-      <LocalizedName>Leap</LocalizedName>
+      <LocalizedName>Leap *</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="7">
       <LocalizedName>Charged Leap</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="8">
-      <LocalizedName>Rip Space</LocalizedName>
+      <LocalizedName>Rip Space *</LocalizedName>
     </BattleCardDesc>
     <BattleCardDesc ID="9">
       <LocalizedName>High-speed Dimensional Rip</LocalizedName>

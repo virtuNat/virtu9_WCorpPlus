@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CharactersNameRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name ID="1">Book of WARP Cleanup Crew</Name>
-  <Name ID="2">Book of Lesti</Name>
-  <Name ID="3">Book of Sen</Name>
-  <Name ID="4">Book of Rose</Name>
+  <Name ID="1">Book of WARP Cleanup Crew *</Name>
+  <Name ID="2">Book of Lesti *</Name>
+  <Name ID="3">Book of Sen *</Name>
+  <Name ID="4">Book of Rose *</Name>
 </CharactersNameRoot>
