@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizationFile>
+    <DefaultLanguage>en</DefaultLanguage>
+    <BattleCardAbilityInfo Exist="true">
+      <Path>\LocalizeBase\{0}\BattleCardAbilities</Path>
+    </BattleCardAbilityInfo>
+    <BattleCardNameInfo Exist="true">
+      <Path>\LocalizeBase\{0}\BattleCards</Path>
+    </BattleCardNameInfo>
+    <BattleDialogInfo Exist="true">
+      <Path>\LocalizeBase\{0}\BattleDialogue</Path>
+    </BattleDialogInfo>
+    <BattleEffectTextInfo Exist="true">
+      <Path>\LocalizeBase\{0}\EffectTexts</Path>
+    </BattleEffectTextInfo>
+    <BookDescInfo Exist="true">
+      <Path>\LocalizeBase\{0}\Books</Path>
+    </BookDescInfo>
+    <CharacterNameInfo Exist="true">
+      <Path>\LocalizeBase\{0}\CharacterNames</Path>
+    </CharacterNameInfo>
+    <DropbookNameInfo Exist="true">
+      <Path>\LocalizeBase\{0}\DropBooks</Path>
+    </DropbookNameInfo>
+    <PassiveDescInfo Exist="true">
+      <Path>\LocalizeBase\{0}\PassiveDesc</Path>
+    </PassiveDescInfo>
+    <StageNameInfo Exist="true">
+      <Path>\LocalizeBase\{0}\StageName</Path>
+    </StageNameInfo>
+    <StoryInfo Exist="false" />
+    <TextDataInfo Exist="false" />
+  </LocalizationFile>
+  <ExtraFile>
+    <EpisodeInfo Enable="false" />
+    <BufIconInfo Enable="false" />
+    <StoryIconInfo Enable="false" />
+  </ExtraFile>
+</LocalizationInfo>

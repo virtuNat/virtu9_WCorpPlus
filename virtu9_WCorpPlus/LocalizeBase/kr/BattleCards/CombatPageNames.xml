@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cardDescList>
+    <!-- W Corp Agents -->
+    <BattleCardDesc ID="1">
+      <LocalizedName>에너지 순환</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2">
+      <LocalizedName>차원의 틈</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="3">
+      <LocalizedName>과충전</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="4">
+      <LocalizedName>되돌리기</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="5">
+      <LocalizedName>파동</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="6">
+      <LocalizedName>도약</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="7">
+      <LocalizedName>충전 도약</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="8">
+      <LocalizedName>공간 절단</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="9">
+      <LocalizedName>초고속 공간 절단</LocalizedName>
+    </BattleCardDesc>
+  </cardDescList>
+</BattleCardDescRoot>

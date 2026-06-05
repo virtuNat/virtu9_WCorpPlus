@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleEffectTextRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <effectTextList>
+    <BattleEffectText ID="OnlyPage_virtu9_WCorpPlus_WCorp_Elite_Keyword">
+      <Name>로즈, 레스티, 센 전용 책장</Name>
+      <Desc>로즈, 레스티, 센의 핵심 책장만이 이 책장을 사용할 수 있음</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="OnlyPage_virtu9_WCorpPlus_Rose_Keyword">
+      <Name>로즈 전용 책장</Name>
+      <Desc>로즈의 핵심 책장만이 이 책장을 사용할 수 있음</Desc>
+    </BattleEffectText>
+  </effectTextList>
+</BattleEffectTextRoot>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StageXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Stage id="34293429">
+    <Name>34293429</Name>
+    <Wave>
+      <Unit>1</Unit>
+      <Unit>1</Unit>
+      <Unit>1</Unit>
+      <Unit>1</Unit>
+      <Formation>9</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>4</AvailableUnit>
+      <AggroScript>virtu9_WCorpPlus</AggroScript>
+    </Wave>
+    <Wave>
+      <Unit>4</Unit>
+      <Unit>3</Unit>
+      <Unit>2</Unit>
+      <Unit>1</Unit>
+      <Formation>9</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>4</AvailableUnit>
+      <AggroScript>virtu9_WCorpPlus</AggroScript>
+    </Wave>
+    <FloorNum>2</FloorNum>
+    <Chapter>5</Chapter>
+    <Invitation Combine="BookRecipe">
+      <Book Pid="@origin">240005</Book>
+    </Invitation>
+    <Condition>
+      <Stage Pid="@origin">40002</Stage>
+    </Condition>
+    <StoryType>WarpCrew</StoryType>
+    <Story Condition="Start">Button</Story>
+    <Story Condition="End" />
+  </Stage>
+</StageXmlRoot>

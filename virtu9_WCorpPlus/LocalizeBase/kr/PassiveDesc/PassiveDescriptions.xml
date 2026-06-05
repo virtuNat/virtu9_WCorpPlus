@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- W Corp Cleanup Agents -->
+  <PassiveDesc ID="10"> <!-- WCorpPlus_DimSectionDmg -->
+    <Name>차원절단</Name>
+    <Desc>적중 시, 5의 추가 피해를 10% 확률로 입힘. 피해를 입히지 못했을 경우 보유한 충전 1마다 5%의 확률로 피해를 입히려고 시도함. (피해를 입히면 효과 종료; 광역 공격 책장 제외)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="11"> <!-- WCorpPlus_DimSectionProt -->
+    <Name>충전 보호막</Name>
+    <Desc>피격 시, 10%의 확률로 피해를 2-3 감소시키고 흐트러짐 피해를 1-2 감소시킨다. 감소시키지 못했을 경우 보유한 충전 1마다 5%의 확률로 감소시키려고 시도함. (피해 감소시 효과 종료, 피해 감소와 흐트러짐 피해 감소는 따로 굴림.)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="12"> <!-- WCorpPlus_Battery -->
+    <Name>기본 충전지</Name>
+    <Desc>충전 소모 후 충전 1을 돌려 받음 (막 당 최대 3)</Desc>
+  </PassiveDesc>
+  <!-- Lesti -->
+  <PassiveDesc ID="20"> <!-- WCorpPlus_ChargeHeal -->
+    <Name>치유 증폭장</Name>
+    <Desc>충전을 얻을 때 보유 충전 4당 체력 1 회복 (막 당 한번, 최대 5)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="21"> <!-- WCorpPlus_OverchargePower -->
+    <Name>반작용</Name>
+    <Desc>지난 막에 책장을 사용하지 않았을 경우, 힘과 인내를 1 얻음. 보유한 충전 10마다 힘과 인내를 1씩 추가로 얻음 (최대 3, 첫번째 막은 제외)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="22"> <!-- WCorpPlus_OverchargeDamage -->
+    <Name>정전기 과부화</Name>
+    <Desc>흐트러지거나 행동 불가이거나 충전이 10 이상일 때 피격시, 피해 증가를 1 얻음 (최대 5)</Desc>
+  </PassiveDesc>
+  <!-- Sen -->
+  <PassiveDesc ID="30"> <!-- WCorpPlus_ChargeVuln -->
+    <Name>충전 칼날</Name>
+    <Desc>지난 막에 충전을 소모했을 경우, 이번 막에 적중 시 취약을 1 부여 (광역 공격 책장 제외; 캐릭터마다 한번)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="31"> <!-- WCorpPlus_DimSectionBDmg -->
+    <Name>굴절</Name>
+    <Desc>적중시 10%의 확률로 흐트러짐 피해 3을 입힘. 피해를 입히지 못했을 경우 보유한 충전 1마다 5%의 확률로 피해를 입히려고 시도함. (피해를 입히면 효과 종료; 광역 공격 책장 제외)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="32"> <!-- WCorpPlus_ChargeBuff -->
+    <Name>충전의 흐름</Name>
+    <Desc>전투 시작시 충전이 6 이상일 경우, 무작위 아군에게 힘 또는 인내 1을 부여 (로즈를 우선시함)</Desc>
+  </PassiveDesc>
+  <!-- Rose -->
+  <PassiveDesc ID="40"> <!-- WCorpPlus_ChargeQuick -->
+    <Name>양자도약</Name>
+    <Desc>충전을 소모하거나 얻을 때 40%의 확률로 신속 1을 얻음 (막 당 최대 2)</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="41"> <!-- WCorpPlus_CleanupOrder -->
+    <Name>정리 지시</Name>
+    <Desc>충전이 5 이상인 아군이 속도가 느린 적을 공격 할 때, 속도 차이 만큼 추가 피해를 입힘. (최대 4, 아군마다 막 당 2번).</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="42"> <!-- WCorpPlus_CleanupOrderEnemy -->
+    <Name>정리 지시</Name>
+    <Desc>충전이 5 이상인 아군이 속도가 느린 적을 공격 할 때, 속도 차이 만큼 추가 피해를 입힘. (최대 4, 아군마다 막 당 3번).
+감정 단계가 2 이상일 때, 다른 아군이 없다면, 충전을 얻을 때 1 추가로 얻음 (막 당 최대 2번)</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>

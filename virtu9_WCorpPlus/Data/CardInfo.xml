@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Card ID="1">
+    <Name>Energy Cycle</Name>
+    <Artwork>Warp7</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="0"/>
+    <Script>virtu9_WCorpPlus_EnergyCycle</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="2" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="WarpCrew_Z" Script="virtu9_DynamicAbility_KwdWarpCharge2SelfNow_Atk" Desc="" />
+      <Behaviour Min="2" Dice="4" Type="Atk" Detail="Slash" Motion="J" EffectRes="WarpCrew_J" Script="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_EnergyCycle</PriorityScript>
+  </Card>
+  <Card ID="2">
+    <Name>Dimensional Rift</Name>
+    <Artwork>Warp2</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2"/>
+    <Script>virtu9_DynamicAbility_Draw1_KwdWarpCharge2SelfNow_Use</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="H" EffectRes="WarpCrew_H" Script="virtu9_DynamicAbility_KwdWarpCharge2SelfNow_Atk" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Slash" Motion="J" EffectRes="WarpCrew_J" Script="virtu9_DynamicAbility_KwdWarpCharge2SelfNow_Atk" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_DimRift</PriorityScript>
+  </Card>
+  <Card ID="3">
+    <Name>Overcharge</Name>
+    <Artwork>Warp4</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="3"/>
+    <Script>virtu9_WCorpPlus_Overcharge</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="5" Dice="13" Type="Atk" Detail="Slash" Motion="Z" EffectRes="WarpCrew_Z" Script="" Desc="" />
+      <Behaviour Min="4" Dice="10" Type="Atk" Detail="Slash" Motion="J" EffectRes="WarpCrew_J" Script="virtu9_WCorpPlus_Overcharge_2" Desc="" />
+      <Behaviour Min="5" Dice="9" Type="Atk" Detail="Hit" Motion="Z" EffectRes="WarpCrew_Z" Script="virtu9_WCorpPlus_Overcharge_3" Desc="" />
+      <Behaviour Min="2" Dice="6" Type="Standby" Detail="Guard" Motion="G" EffectRes="WarpCrew_G" Script="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>1</Priority>
+  </Card>
+  <Card ID="4">
+    <Name>Rewind</Name>
+    <Artwork>Warp5</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="1"/>
+    <Script>virtu9_WCorpPlus_Rewind</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="2" Dice="4" Type="Def" Detail="Guard" Motion="G" EffectRes="WarpCrew_G" Script="" Desc="" />
+      <Behaviour Min="2" Dice="9" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script="" Desc="" />
+      <Behaviour Min="2" Dice="6" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="WarpCrew_Z" Script="virtu9_DynamicAbility_KwdWarpCharge2SelfNow_Atk" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_Rewind</PriorityScript>
+  </Card>
+  <Card ID="5">
+    <Name>Ripple</Name>
+    <Artwork>Warp3</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3"/>
+    <Script>virtu9_WCorpPlus_Ripple</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script="" Desc="" />
+      <Behaviour Min="5" Dice="17" Type="Atk" Detail="Hit" Motion="Z" EffectRes="WarpCrew_Z" Script="virtu9_WCorpPlus_Ripple_2" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_Ripple</PriorityScript>
+  </Card>
+  <Card ID="6">
+    <Name>Leap</Name>
+    <Artwork>Warp6</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="1"/>
+    <Script>virtu9_WCorpPlus_Leap</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Hit" Motion="H" EffectRes="WarpCrew_H" Script="quickness1atk" Desc="" />
+      <Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="J" EffectRes="WarpCrew_J" Script="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_Leap</PriorityScript>
+  </Card>
+  <Card ID="7">
+    <Name>Charged Leap</Name>
+    <Artwork>Warp6</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="1"/>
+    <Script>virtu9_WCorpPlus_UpLeap</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="J" EffectRes="WarpCrew_J" Script="drawCard1atk" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Hit" Motion="H" EffectRes="WarpCrew_H" Script="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_UpLeap</PriorityScript>
+  </Card>
+  <Card ID="8">
+    <Name>Rip Space</Name>
+    <Artwork>Warp1</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>OnlyPage_virtu9_WCorpPlus_WCorp_Elite_Keyword</Keyword>
+    <Spec Range="Near" Cost="2"/>
+    <Script>virtu9_WCorpPlus_RipSpace</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="2" Dice="4" Type="Atk" Detail="Penetrate" Motion="H" EffectRes="WarpCrew_H" Script="virtu9_WCorpPlus_RipSpace_1" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="S1" EffectRes="WarpCrew_S1" Script="virtu9_WCorpPlus_RipSpace_2" ActionScript="virtu9_WCorpPlus_Ripping" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_RipSpace</PriorityScript>
+  </Card>
+  <Card ID="9">
+    <Name>High-speed Dimensional Rip</Name>
+    <Artwork>Warp1</Artwork>
+    <Rarity>Unique</Rarity>
+    <Option>OnlyPage</Option>
+    <Keyword>OnlyPage_virtu9_WCorpPlus_Rose_Keyword</Keyword>
+    <Spec Range="Special" Cost="3"/>
+    <Script>virtu9_WCorpPlus_Shred</Script>
+    <ScriptDesc></ScriptDesc>
+    <BehaviourList>
+      <Behaviour Min="1" Dice="4" Type="Atk" Detail="Slash" Motion="S1" EffectRes="WarpCrew_S1" Script="virtu9_WCorpPlus_Shred_1" ActionScript="virtu9_WCorpPlus_Ripping" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <Priority>0</Priority>
+    <PriorityScript>virtu9_WCorpPlus_Shred</PriorityScript>
+  </Card>
+</DiceCardXmlRoot>

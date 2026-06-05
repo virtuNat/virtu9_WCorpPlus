@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <bookDescList>
+    <BookDesc BookID="5">
+      <BookName>A WARP Cleanup Agent's Page</BookName>
+      <TextList>
+        <Desc>Sigh… They ain’t going to raise the ticket prices or run fewer trains like the last time, are they?</Desc>
+        <Desc>Whaddaya mean, cap?</Desc>
+        <Desc>Lobotomy Corp—the company that was supplying our energy needs—went down recently.</Desc>
+        <Desc>That’s a good point, it’s harder to operate the trains with less energy… What do you mean by “last time”, though?</Desc>
+        <Desc>Oh, you’re too new to know? Back in the day, L Corp’s Nest was occupied by another energy company.</Desc>
+        <Desc>So, that company puttered out and put our corporation into the same sort of energy shortage we’re dealing with now?</Desc>
+        <Desc>Not quite. It did go bust eventually, but it’s more that the company was stingy about sharing its energy. Awfully strict, too… I heard it had a bad reputation among its partnered companies. Because they were so tight-arsed about energy supply, we had to reduce the number of trains running at the time for a while.</Desc>
+        <Desc>I had no idea…</Desc>
+        <Desc>Don’t count on me, though. I also picked this story up from my superior. That’s enough chittering, let’s get back to work.</Desc>
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="6">
+      <BookName>Lesti's Page</BookName>
+      <TextList>
+        <Desc>To restore the train, the passengers have to be in their seats. You have to be seated so the scanning program can detect your genomic data and put you back on the right seat~ Oh, and the scanner has trouble reading things that are moving too much, so you should be nice and stay still in your seat! So the WARP cleanup crew (like us!) tidy up the carriages and put the passengers in their seats according to their genomic data. And with the press of a button… Tada! Everything goes back to normal as if nothing happened! I only learned this after I joined the corp… But, isn’t that so cool? That’s what we agents do.</Desc>
+        <Desc>But sometimes, the cleanup crew isn’t enough for the job. What’s so scary about dealing with humans, you ask? I heard this story from my seniors… One time, a Color hid their identity and snuck onto the train. What a shocker that must’ve been… It’s our rule to stop powerful people like Colors or key members of Associations from boarding our WARP trains, or to guide them to take First Class seats if they must board the train, for a safe and smooth restoration process. We want them to sleep without a care instead of joining in the chaos of the other carriages~ That Color Fixer was super tricky to deal with, they told me? Most passengers started training under the Color’s guidance in order to attain some kind of enlightenment. All but a few of our agents were pulverized by those people before they could even see a glimpse of the Color…</Desc>
+        <Desc>But, we aren’t totally powerless against those situations. We would’ve gotten into so many problems otherwise, yeah? In case things get too difficult for our agents to handle, we call R Corp, a Wing we’re partnered with. I saw footage about R Corp. in our training course… They were so cool. That was my first time seeing the mercenaries in action! They’d keep pressing on and wipe their targets, no matter how harsh their resistance was… I was like, whoa, they really are something else. The Fourth Pack… Was it called the Rabbit Team? Yeah, I think it was. I gotta wonder, though; why rabbits of all animals? Isn’t that an herbivore?</Desc>
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="7">
+      <BookName>Sen's Page</BookName>
+      <TextList>
+        <Desc>You thought opening gates to different dimensions was our Singularity? That’s actually a former Singularity a fallen Wing used to own. It wasn’t a very well-known Wing, so you probably won’t recognize it even if I told you its name. Point is, that Wing discovered a way to open gates between dimensions. The ability to create rifts in space. The Wing sadly never knew how to utilize that stunning technology they’d found; the Nest ended up falling before it could find a proper use for the Singularity, and the company now known as W Corp. spent a huge sum of money to purchase it.</Desc>
+        <Desc>At first, people at this corp also struggled to think of a good way to use this tech. Even if it could make a big rip in space, entering it was a whole different matter; you don’t know what’s in there or if you can even come back… They had no idea. But soon enough, W Corp. found a way to put this dimensional gate to use, which involves T Corp’s technology. With the device made by T Corp. that collects time installed in the train, not a single second really "passes" in the carriages even if the train travels for thousands of years. It’s the, uhh… temporal preservation or whatever. That’s what they apparently use, but it’s too complicated for me. Anyway, whatever happens in the train, we revert it using our Singularity of restoration, and T Corp. takes the time we collect for their own Singularity. We’re good business partners.</Desc>
+        <Desc>This tech isn’t just used for long-distance travel. It’s applied to the weapons we use, too. Equipment used by agents of W Corp. is specialized in tearing and cutting things apart. We can precisely cleave lumps into individual pieces with the help of the space-ripping technology.</Desc>
+      </TextList>
+    </BookDesc>
+    <BookDesc BookID="8">
+      <BookName>Rose's Page</BookName>
+      <TextList>
+        <Desc>Many people are under the impression that W Corp’s Singularity is quick transportation via teleportation. That’s how our technology is advertised to the public, anyway. They aren’t strictly wrong; we’re just hiding the bigger picture from them.</Desc>
+        <Desc>W Corp’s Singularity is the restoration of a previous status. To put it in layman’s terms, even if your body is crushed to a pulp, it can be restored to a recorded state as long as all the pieces remain.</Desc>
+        <Desc>First off, we scan the molecular structures, genomic data, and other information of the passengers required for their restoration when they sit on their seats. The scanned data is stored in the transmission device inside the train, ready to be sent to the restoration machine. With that, any and all kinds of pandemonium into which the carriages may have turned can be reverted with a single button. The machine has difficulty scanning lifeforms that move too much, so we need to take measures to subdue it. As with all Singularities, it has small side effects. Some might leave the train with slightly more weight than before, or gain a bit of height… No one has filed a complaint about it, likely because the change is so minor that they just shrug it off as a matter of feelings, like the body feeling lighter because of their excitement for going on a trip, or it feeling heavier because they ate too much prior to boarding the train.</Desc>
+        <Desc>The passengers don’t remember what happened inside the train, but that’s not because we use amnestics. It’s the restoration procedure reverting the people’s memories to a previous state rather than selectively erasing them. In plain language, everything goes back to how it was when it was scanned. The passengers will continue the conversations they were having when they first boarded the train as if nothing happened. They won’t notice any oddity or displacement in their dialogue; any thoughts they had or words they were about to speak will be restored and resumed seamlessly.</Desc>
+      </TextList>
+    </BookDesc>
+  </bookDescList>
+</BookDescRoot>

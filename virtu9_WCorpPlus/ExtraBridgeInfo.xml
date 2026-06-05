@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtraBridgeInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EmotionCard Exist="false" />
+  <EmotionEgo Exist="false" />
+  <Formation Exist="false" />
+  <Gift Exist="false" />
+  <GiftArtwork Exist="false" />
+  <HasCustomOnlyCard>true</HasCustomOnlyCard>
+  <HasCustomInnerType>true</HasCustomInnerType>
+</ExtraBridgeInfo>

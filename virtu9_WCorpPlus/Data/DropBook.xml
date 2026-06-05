@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookUseXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <BookUse ID="1">
+    <Name>Book of WARP Cleanup Crew</Name>
+    <TextId />
+    <BookIcon>WarpCrew</BookIcon>
+    <Chapter>5</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">5</DropItem>
+  </BookUse>
+  <BookUse ID="2">
+    <Name>Book of Lesti</Name>
+    <TextId />
+    <BookIcon>WarpCrew</BookIcon>
+    <Chapter>5</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">6</DropItem>
+    <DropItem Type="Equip">5</DropItem>
+  </BookUse>
+  <BookUse ID="3">
+    <Name>Book of Sen</Name>
+    <TextId />
+    <BookIcon>WarpCrew</BookIcon>
+    <Chapter>5</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">7</DropItem>
+    <DropItem Type="Equip">5</DropItem>
+  </BookUse>
+  <BookUse ID="4">
+    <Name>Book of Rose</Name>
+    <TextId />
+    <BookIcon>WarpCrew</BookIcon>
+    <Chapter>5</Chapter>
+    <BookValue>0</BookValue>
+    <DropItem Type="Equip">8</DropItem>
+    <DropItem Type="Equip">5</DropItem>
+  </BookUse>
+</BookUseXmlRoot>

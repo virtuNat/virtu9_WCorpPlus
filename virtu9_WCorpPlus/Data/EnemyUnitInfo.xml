@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyUnitClassRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Enemy ID="1">
+    <Name>WARP Cleanup Agent</Name>
+    <NameID>-1</NameID>
+    <MinHeight>165</MinHeight>
+    <MaxHeight>180</MaxHeight>
+    <Unknown>false</Unknown>
+    <Retreat>false</Retreat>
+    <BookId>1</BookId>
+    <DropTable Level="0">
+      <DropItem Prob="1">1</DropItem>
+    </DropTable>
+    <DropTable Level="1">
+      <DropItem Prob="2">1</DropItem>
+    </DropTable>
+    <DropTable Level="2">
+      <DropItem Prob="3">1</DropItem>
+    </DropTable>
+    <Exp>110</Exp>
+    <AiScript>virtu9_WCorpPlus_Agent</AiScript>
+  </Enemy>
+  <Enemy ID="2">
+    <Name>Lesti</Name>
+    <NameID>-1</NameID>
+    <MinHeight>165</MinHeight>
+    <MaxHeight>165</MaxHeight>
+    <Unknown>false</Unknown>
+    <Retreat>false</Retreat>
+    <BookId>2</BookId>
+    <DropTable Level="0">
+      <DropItem Prob="0.8">2</DropItem>
+      <DropItem Prob="2">1</DropItem>
+    </DropTable>
+    <DropTable Level="1">
+      <DropItem Prob="1.6">2</DropItem>
+      <DropItem Prob="1">1</DropItem>
+    </DropTable>
+    <DropTable Level="2">
+      <DropItem Prob="2.4">2</DropItem>
+    </DropTable>
+    <Emotion>1</Emotion>
+    <Emotion>4</Emotion>
+    <Exp>110</Exp>
+    <AiScript>virtu9_WCorpPlus_Agent</AiScript>
+  </Enemy>
+  <Enemy ID="3">
+    <Name>Sen</Name>
+    <NameID>-1</NameID>
+    <MinHeight>180</MinHeight>
+    <MaxHeight>180</MaxHeight>
+    <Unknown>false</Unknown>
+    <Retreat>false</Retreat>
+    <BookId>3</BookId>
+    <DropTable Level="0">
+      <DropItem Prob="0.8">3</DropItem>
+      <DropItem Prob="2">1</DropItem>
+    </DropTable>
+    <DropTable Level="1">
+      <DropItem Prob="1.6">3</DropItem>
+      <DropItem Prob="1">1</DropItem>
+    </DropTable>
+    <DropTable Level="2">
+      <DropItem Prob="2.4">3</DropItem>
+    </DropTable>
+    <Emotion>1</Emotion>
+    <Emotion>4</Emotion>
+    <Exp>110</Exp>
+    <AiScript>virtu9_WCorpPlus_Agent</AiScript>
+  </Enemy>
+  <Enemy ID="4">
+    <Name>Rose</Name>
+    <NameID>-1</NameID>
+    <MinHeight>178</MinHeight>
+    <MaxHeight>178</MaxHeight>
+    <Unknown>false</Unknown>
+    <Retreat>false</Retreat>
+    <BookId>4</BookId>
+    <DropTable Level="0">
+      <DropItem Prob="0.8">4</DropItem>
+      <DropItem Prob="2">1</DropItem>
+    </DropTable>
+    <DropTable Level="1">
+      <DropItem Prob="1.6">4</DropItem>
+      <DropItem Prob="1">1</DropItem>
+    </DropTable>
+    <DropTable Level="2">
+      <DropItem Prob="2.4">4</DropItem>
+    </DropTable>
+    <Emotion>1</Emotion>
+    <Emotion>4</Emotion>
+    <Exp>110</Exp>
+    <AiScript>virtu9_WCorpPlus_Rose</AiScript>
+  </Enemy>
+</EnemyUnitClassRoot>

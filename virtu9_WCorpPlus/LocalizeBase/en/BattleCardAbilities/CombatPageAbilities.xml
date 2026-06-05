@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- Dynamically generated abilities -->
+  <BattleCardAbility ID="virtu9_DynamicAbility_Draw1_KwdWarpCharge2SelfNow_Use">
+    <Desc>[On Use] Draw 1 page; Gain 2 Charge</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_DynamicAbility_KwdWarpCharge2SelfNow_Atk">
+    <Desc>[On Hit] Gain 2 Charge</Desc>
+  </BattleCardAbility>
+  <!-- New abilities -->
+  <BattleCardAbility ID="virtu9_WCorpPlus_EnergyCycle">
+    <Desc>[On Use] Restore 1 Light; At 4- Charge, gain 2 Charge in addition</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Overcharge">
+    <Desc>[On Use] Gain 10 Charge; become Immobilized next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Overcharge_2">
+    <Desc>[On Hit] At 6-10 Charge, inflict 2 Feeble next Scene (Once per target)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Overcharge_3">
+    <Desc>[On Hit] At 6-10 Charge, inflict 2 Paralysis next Scene (Once per target)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Rewind">
+    <Desc>[On Use] Spend up to 3 Charge to recover 3 HP per Charge spent (Once per Scene)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Ripple">
+    <Desc>[On Use] Spend up to 3 Charge to give dice on this page 1 Power per Charge spent</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Ripple_2">
+    <Desc>[On Hit] Inflict 1 Bind next Scene; if Charge was spent by this page, inflict 1 more Bind</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Leap">
+    <Desc>[On Use] Draw 1 page;
+Gain 1 Charge for every 2 pages in hand (Max 3)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_UpLeap">
+    <Desc>[On Use] Spend 3 Charge to give 4 random allies 1 Haste next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_RipSpace">
+    <Desc>[On Use] Spend up to 10 Charge; dice on this page gain Power equal to Charge spent
+If less than 10 Charge was spent, take (10 - Charge)% Max. HP damage (Max. 20)</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_RipSpace_1">
+    <Desc>[On Hit] Draw 1 page for every 5 Charge spent</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_RipSpace_2">
+    <Desc>[On Hit] Deal bonus damage equal to the Charge spent by this page</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Shred">
+    <Desc>If faster than the target by 3+ Speed, dice on this page deal +25% damage
+[On Use] At 5+ Charge, Spend all charge to give dice on this page 8 Power
+If less than 10 Charge was spent, take (20 - Charge)% Max. HP damage (Min. 5) and become Immobilized next Scene</Desc>
+  </BattleCardAbility>
+  <BattleCardAbility ID="virtu9_WCorpPlus_Shred_1">
+    <Desc>[On Hit] Recycle this die (Once for every 5 Charge spent, up to 2 times)</Desc>
+  </BattleCardAbility>
+</BattleCardAbilityDescRoot>

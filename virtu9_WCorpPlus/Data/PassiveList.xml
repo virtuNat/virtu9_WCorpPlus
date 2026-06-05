@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <!-- W Corp Cleanup Agents -->
+  <Passive ID="10">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Common</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <!-- <InnerType>-1</InnerType> -->
+    <CopyInnerTypeFrom Pid="@origin">240022</CopyInnerTypeFrom>
+    <Cost>2</Cost>
+    <Script>virtu9_WCorpPlus_DimSectionDmg</Script>
+    <Name>Dimensional Sections</Name>
+    <Desc>On a successful hit, deal 5 bonus damage at a 10% chance, with an additional separate 5% chance for each stack of Charge on self. (Multiple successful chances do not stack; Excludes Mass Attacks)</Desc>
+  </Passive>
+  <Passive ID="11">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>2</Cost>
+    <Script>virtu9_WCorpPlus_DimSectionProt</Script>
+    <Name>Charged Barrier</Name>
+    <Desc>When hit, take 2-3 less damage and 1-2 less Stagger damage at a 10% chance, with an additional separate 5% chance for each stack of Charge on self. (Multiple successful chances do not stack; Damage and Stagger damage rolls are done independently)</Desc>
+  </Passive>
+  <Passive ID="12">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Common</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>1</Cost>
+    <Script>virtu9_WCorpPlus_Battery</Script>
+    <Name>Standard Pocket Battery</Name>
+    <Desc>After spending Charge, gain 1 Charge back. (Once per Scene)</Desc>
+  </Passive>
+  <!-- Lesti -->
+  <Passive ID="20">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>1</Cost>
+    <Script>virtu9_WCorpPlus_ChargeHeal</Script>
+    <Name>Restoration Packs</Name>
+    <Desc>After gaining Charge, heal 1 HP for every 4 Charge owned. (Max. 5; Once per Scene)</Desc>
+  </Passive>
+  <Passive ID="21">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <!-- <InnerType>-1</InnerType> -->
+    <CopyInnerTypeFrom Pid="@origin">240021</CopyInnerTypeFrom>
+    <Cost>2</Cost>
+    <Script>virtu9_WCorpPlus_OverchargePower</Script>
+    <Name>Reaction Force</Name>
+    <Desc>If no Combat pages were used the previous Scene, gain 1 + (1 per 10 Charge) Strength and Endurance this Scene. (Max. 3; Excludes the first Scene of an Act)</Desc>
+  </Passive>
+  <Passive ID="22">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>1</Cost>
+    <Script>virtu9_WCorpPlus_OverchargeDamage</Script>
+    <Name>Tribocapacitance</Name>
+    <Desc>When hit while Staggered, Immobilized, or at 10+ Charge, gain 1 Damage Up next Scene. (Max 5)</Desc>
+  </Passive>
+  <!-- Sen -->
+  <Passive ID="30">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>2</Cost>
+    <Script>virtu9_WCorpPlus_ChargeVuln</Script>
+    <Name>Energized Blades</Name>
+    <Desc>If Charge was spent the previous Scene, inflict 1 Fragile on hit this Scene. (Excludes Mass Attacks; Once per character per Scene)</Desc>
+  </Passive>
+  <Passive ID="31">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Uncommon</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <!-- <InnerType>-1</InnerType> -->
+    <CopyInnerTypeFrom Pid="@origin">240020</CopyInnerTypeFrom>
+    <Cost>2</Cost>
+    <Script>virtu9_WCorpPlus_DimSectionBDmg</Script>
+    <Name>Refraction</Name>
+    <Desc>On a successful hit, deal 3 bonus Stagger damage at a 10% chance, with an additional separate 5% chance for each stack of Charge on self. (Multiple successful chances do not stack; Excludes Mass Attacks)</Desc>
+  </Passive>
+  <Passive ID="32">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>3</Cost>
+    <Script>virtu9_WCorpPlus_ChargeBuff</Script>
+    <Name>Energizing Current</Name>
+    <Desc>If at 6+ Charge at the start of the Scene, give 1 random ally 1 Strength or 1 Endurance this Scene. (Prioritizes Rose)</Desc>
+  </Passive>
+  <!-- Rose -->
+  <Passive ID="40">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>2</Cost>
+    <Script>virtu9_WCorpPlus_ChargeQuick</Script>
+    <Name>Quantum Leap</Name>
+    <Desc>Gain 1 Haste next Scene at a 40% chance when either gaining or spending Charge. (Up to 2 times per Scene)</Desc>
+  </Passive>
+  <Passive ID="41">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <!-- <InnerType>-1</InnerType> -->
+    <CopyInnerTypeFrom Pid="@origin">240019</CopyInnerTypeFrom>
+    <Cost>3</Cost>
+    <Script>virtu9_WCorpPlus_CleanupOrder</Script>
+    <Name>Cleanup Order</Name>
+    <Desc>When an ally that had 5+ Charge at the start of combat attacks a target with slower Speed, deal bonus damage equal to the Speed difference. (Max 4; Up to 2 times per ally per Scene)</Desc>
+  </Passive>
+  <Passive ID="42">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <!-- <InnerType>-1</InnerType> -->
+    <CopyInnerTypeFrom Pid="@origin">240019</CopyInnerTypeFrom>
+    <Cost>5</Cost>
+    <Script>virtu9_WCorpPlus_CleanupOrderEnemy</Script>
+    <Name>Cleanup Order</Name>
+    <Desc>When an ally that had 5+ Charge at the start of combat attacks a target with slower Speed, deal bonus damage equal to the Speed difference. (Max 4; Up to 3 times per ally per Scene) 
+At Emotion Level 2+, or if no other allies are present, gain +1 additional stack when gaining Charge. (Up to 2 times per Scene)</Desc>
+  </Passive>
+</PassiveXmlRoot>
